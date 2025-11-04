@@ -84,9 +84,11 @@ Where:
 !<img width="689" height="907" alt="image" src="https://github.com/user-attachments/assets/6b8eaf26-8de2-415a-ab4e-7d7e998495e1" />
 
 #### Blurred Image (L_b)
-![Blurred Image](output/blurred_image.jpg)
+<img width="661" height="886" alt="image" src="https://github.com/user-attachments/assets/d969d90c-f63d-4bfa-9675-4b8c02b03e15" />
+
 
 #### Retrieved Image (L reconstructed)
-![Retrieved Image](output/retrieved_image.jpg)
+<img width="656" height="885" alt="image" src="https://github.com/user-attachments/assets/c8113a54-8909-44a4-8b31-1e388a979281" />
+
 
 
