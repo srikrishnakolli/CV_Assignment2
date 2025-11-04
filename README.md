@@ -81,22 +81,12 @@ Where:
 ### Results
 
 #### Original Image (L)
-![Original Image](![L](https://github.com/user-attachments/assets/f9a3cf98-4761-43ea-b555-c6f4cedea578)
-)
+!<img width="689" height="907" alt="image" src="https://github.com/user-attachments/assets/6b8eaf26-8de2-415a-ab4e-7d7e998495e1" />
 
 #### Blurred Image (L_b)
 ![Blurred Image](output/blurred_image.jpg)
 
 #### Retrieved Image (L reconstructed)
 ![Retrieved Image](output/retrieved_image.jpg)
-
-### Analysis
-**Image Quality Metrics:**
-- PSNR (Peak Signal-to-Noise Ratio): [Value] dB
-- SSIM (Structural Similarity Index): [Value]
-- MSE (Mean Squared Error): [Value]
-
-**Observations:**
-[Discuss the quality of reconstruction and any limitations]
 
 
