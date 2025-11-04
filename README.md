@@ -1,5 +1,5 @@
 
-## Task 1: Template Matching
+## QUESTION 1: Template Matching
 
 ### Methodology
 Template matching uses normalized cross-correlation to find the location of a template image within a larger scene image[web:40].
@@ -52,9 +52,9 @@ The following 10 objects were used as templates:
 **Detection Accuracy:** [Success/Partial/Failed]
 **Notes:** [Any observations about detection quality]
 
-*[Repeat for all 10 objects]*
 
-## Task 2: Fourier Transform Deconvolution
+
+## QUESTION 2: Fourier Transform Deconvolution
 
 ### Theory
 Gaussian blur in spatial domain is equivalent to multiplication in frequency domain[web:44].
@@ -81,7 +81,8 @@ Where:
 ### Results
 
 #### Original Image (L)
-![Original Image](output/original_image.jpg)
+![Original Image](![L](https://github.com/user-attachments/assets/f9a3cf98-4761-43ea-b555-c6f4cedea578)
+)
 
 #### Blurred Image (L_b)
 ![Blurred Image](output/blurred_image.jpg)
