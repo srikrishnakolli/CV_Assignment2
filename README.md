@@ -2,13 +2,13 @@
 ## QUESTION 1: Template Matching
 
 ### Methodology
-Template matching uses normalized cross-correlation to find the location of a template image within a larger scene image[web:40].
+Template matching uses normalized cross-correlation to find the location of a template image within a larger scene image.
 
 **Correlation Method:**
 - Uses `cv2.matchTemplate()` with `cv2.TM_CCOEFF_NORMED`
 - Normalized correlation coefficient ranges from 0 to 1
 - Higher values indicate better matches
-- Locates the template by finding maximum correlation value[web:39][web:40]
+- Locates the template by finding maximum correlation value
 
 ### Implementation Steps
 1. Load template image from templates folder
@@ -19,45 +19,34 @@ Template matching uses normalized cross-correlation to find the location of a te
 6. Draw bounding box around detected object
 7. Save output image with detection visualization
 
+
+
+
+
+#### Actual Object
+
+<img width="1233" height="920" alt="image" src="https://github.com/user-attachments/assets/77e918b1-40e6-463e-9624-c1657c5fdd88" />
+
+
 ### Template Images
 The following 10 objects were used as templates:
-1. Object 1: [Description]
-2. Object 2: [Description]
-3. Object 3: [Description]
-4. Object 4: [Description]
-5. Object 5: [Description]
-6. Object 6: [Description]
-7. Object 7: [Description]
-8. Object 8: [Description]
-9. Object 9: [Description]
-10. Object 10: [Description]
+1. Object 1: <img width="608" height="221" alt="Bot" src="https://github.com/user-attachments/assets/ad94d710-0b30-4136-8d63-2fbcaf4c0a50" />
+2. Object 2: <img width="182" height="304" alt="Car" src="https://github.com/user-attachments/assets/44f24e26-6d7b-4b0d-8c0d-8fe6188b70ee" />
+3. Object 3: <img width="540" height="298" alt="Ketch" src="https://github.com/user-attachments/assets/840ca005-3968-4ec9-9f98-b6700eee57f7" />
+4. Object 4: <img width="218" height="199" alt="Wat" src="https://github.com/user-attachments/assets/048ae299-d0bd-4929-94e8-cb722bbc874f" />
+
+
+
 
 ### Detection Results
-**Format:** Each result shows three images side by side
-- Left: Template image
-- Center: Original scene image
-- Right: Detected object with bounding box
-
-#### Object 1 Detection
-![Object 1 Template](templates/object_1.jpg)
-![Object 1 Detection](output/detected_object_1.jpg)
-
-**Detection Accuracy:** [Success/Partial/Failed]
-**Notes:** [Any observations about detection quality]
-
-#### Object 2 Detection
-![Object 2 Template](templates/object_2.jpg)
-![Object 2 Detection](output/detected_object_2.jpg)
-
-**Detection Accuracy:** [Success/Partial/Failed]
-**Notes:** [Any observations about detection quality]
+<img width="1197" height="925" alt="image" src="https://github.com/user-attachments/assets/10753879-61bd-4759-bf8f-6d96a19a2082" />
 
 
 
 ## QUESTION 2: Fourier Transform Deconvolution
 
 ### Theory
-Gaussian blur in spatial domain is equivalent to multiplication in frequency domain[web:44].
+Gaussian blur in spatial domain is equivalent to multiplication in frequency domain.
 
 **Mathematical Representation:**
 - Spatial Domain: L_b(x,y) = L(x,y) * G(x,y)
@@ -89,6 +78,16 @@ Where:
 
 #### Retrieved Image (L reconstructed)
 <img width="656" height="885" alt="image" src="https://github.com/user-attachments/assets/c8113a54-8909-44a4-8b31-1e388a979281" />
+
+
+
+
+## Question 3: Web Application Implementation
+
+
+
+### Output
+<img width="1569" height="904" alt="image" src="https://github.com/user-attachments/assets/2757e01b-8926-4db9-897d-c02400492545" />
 
 
 
